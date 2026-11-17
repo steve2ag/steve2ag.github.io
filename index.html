@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steve Avendaño · Senior Staff Algorithms Engineer · Computer Vision & Medical Imaging</title>
+  <meta name="description" content="Senior Staff ML and algorithms engineer with 8+ years taking computer-vision models from R&D to real-time, safety-critical deployment in production vehicles, with a biomedical physics background in medical imaging. Querétaro, Mexico · open to relocation.">
+  <meta name="author" content="Steve A. Avendaño García">
+  <link rel="canonical" href="https://steve2ag.github.io/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Steve A. Avendaño García">
+  <meta property="og:title" content="Steve A. Avendaño García · Senior Staff Algorithms Engineer">
+  <meta property="og:description" content="Real-time computer vision, 3D perception and medical imaging. 8+ years taking models from research to production vehicles.">
+  <meta property="og:url" content="https://steve2ag.github.io/">
+  <meta property="og:image" content="https://steve2ag.github.io/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Steve A. Avendaño García, Senior Staff Algorithms Engineer, next to a LiDAR-style point cloud with 3D detection boxes.">
+  <meta property="profile:first_name" content="Steve">
+  <meta property="profile:last_name" content="Avendaño García">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0d10" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Steve A. Avendaño García",
+    "jobTitle": "Senior Staff Algorithms Engineer",
+    "description": "ML and algorithms engineer specializing in real-time computer vision, 3D perception and medical imaging.",
+    "url": "https://steve2ag.github.io/",
+    "email": "mailto:steve.aag1@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Querétaro", "addressCountry": "MX" },
+    "worksFor": { "@type": "Organization", "name": "Continental Automotive" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "National Autonomous University of Mexico (UNAM)" },
+    "knowsAbout": ["Computer vision", "Machine learning", "3D perception", "Sensor fusion", "LiDAR point clouds", "Model quantization", "Edge deployment", "Medical imaging", "PyTorch", "C++"],
+    "sameAs": ["https://www.linkedin.com/in/steve-alejandro-a-61340a194/"]
+  }
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-cube" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7.5 8.5 6 8.5-6"/></g></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"/><path d="m7 10.5 5 5 5-5"/><path d="M5 20h14"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8.5 7H17v8.5"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-6.5-5.8-6.5-11a6.5 6.5 0 0 1 13 0c0 5.2-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.5 5.2 3.5 8.5s-1.2 6.1-3.5 8.5c-2.3-2.4-3.5-5.2-3.5-8.5S9.7 5.9 12 3.5z"/></g></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7M3 12.5h18"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5.5 15H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v.5"/></g></symbol>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top" aria-label="Steve Avendaño, back to top">
+        <span class="brand__mark"><svg class="icon"><use href="#i-cube"/></svg></span>
+        <span class="brand__name">Steve Avendaño</span>
+      </a>
+      <nav class="site-nav" aria-label="Sections">
+        <ul>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--sm" href="data/Steve_Avendano_CV.pdf" download="Steve_Avendano_CV.pdf">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="status"><span class="status__dot" aria-hidden="true"></span>Open to new roles &amp; relocation</p>
+          <h1>Steve A. Avendaño García</h1>
+          <p class="hero__role">
+            Senior Staff Algorithms Engineer
+            <span><span class="nowrap">Real-time computer vision</span> · <span class="nowrap">3D perception</span> · <span class="nowrap">Medical imaging</span></span>
+          </p>
+          <p class="hero__lead">
+            I take computer-vision models from research to real-time, safety-critical deployment.
+            8+ years spanning perception for production vehicles at Continental and medical imaging
+            (chest CT/<span class="nowrap">X-ray</span>, cardiac ultrasound): from framing the problem as an ML task to quantized C++ running
+            on the target accelerator.
+          </p>
+          <ul class="hero__meta">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Querétaro, Mexico</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>Open to relocation</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg>Continental Automotive</li>
+          </ul>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="mailto:steve.aag1@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Email me
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/steve-alejandro-a-61340a194/" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn
+            </a>
+            <a class="btn" href="data/Steve_Avendano_CV.pdf" download="Steve_Avendano_CV.pdf">
+              <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV
+            </a>
+          </div>
+        </div>
+
+        <figure class="viewer" aria-label="Interactive illustration: a procedurally generated LiDAR-style street scene with 3D detection boxes">
+          <div class="viewer__bar">
+            <span class="viewer__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="viewer__title">lidar_top · 3D detections</span>
+            <span class="viewer__stats"><span id="scene-points"></span><span class="viewer__objects" id="scene-objects"></span></span>
+          </div>
+          <div class="viewer__stage">
+            <canvas id="scene" aria-hidden="true"></canvas>
+            <span class="viewer__hint" id="scene-hint" aria-hidden="true">drag to orbit</span>
+          </div>
+          <figcaption class="viewer__legend">
+            <span class="legend legend--car">car</span>
+            <span class="legend legend--ped">pedestrian</span>
+            <span class="legend legend--cyc">cyclist</span>
+            <span class="viewer__note">Synthetic, rendered live. No real data.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="impact" aria-labelledby="impact-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Selected results</p>
+          <h2 id="impact-title">Impact, in numbers</h2>
+          <p class="section__intro">Outcomes from owning perception models end to end at Continental, from data and training to deployment in production vehicles.</p>
+        </header>
+        <ul class="metrics">
+          <li class="metric">
+            <p class="metric__value">6×</p>
+            <p class="metric__label">Faster model training</p>
+            <p class="metric__detail">Profiled training end to end (storage I/O, CPU preprocessing, host-to-GPU transfer, compute) and redesigned data loading, reaching ~90% average GPU utilization.</p>
+          </li>
+          <li class="metric">
+            <p class="metric__value">99%</p>
+            <p class="metric__label">Quantized-model fidelity</p>
+            <p class="metric__detail">Similarity to the floating-point reference after taking models from PyTorch to real-time C++ on an automotive accelerator with distillation, QAT and PTQ.</p>
+          </li>
+          <li class="metric">
+            <p class="metric__value">+14 pts</p>
+            <p class="metric__label">More reliably auto-labeled frames</p>
+            <p class="metric__detail">A fully automated labeling pipeline for several terabytes of raw driving recordings, with no costly manual annotation.</p>
+          </li>
+          <li class="metric">
+            <p class="metric__value">&lt;1 day <span class="metric__from">from ~4 days</span></p>
+            <p class="metric__label">Per full-dataset relabel</p>
+            <p class="metric__detail">Ran 4–5 recordings concurrently as multi-model GPU processes sized to fit GPU memory.</p>
+          </li>
+          <li class="metric">
+            <p class="metric__value">43%</p>
+            <p class="metric__label">Fewer failing frames</p>
+            <p class="metric__detail">An agentic auto-research loop ran 100+ experiments over a weekend and proposed new loss terms, cutting failing frames by 43% on held-out field recordings.</p>
+          </li>
+          <li class="metric">
+            <p class="metric__value">50%</p>
+            <p class="metric__label">Of the generalization gap closed</p>
+            <p class="metric__detail">A Blender synthetic-data pipeline closed half the gap on unseen scenarios without regressing on seen ones.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">From medical imaging to production vehicles</h2>
+        </header>
+
+        <div class="jobs">
+          <article class="job">
+            <div class="job__meta">
+              <p class="job__dates">Nov 2020 – Present</p>
+              <p>Auburn Hills, USA · Querétaro, MX</p>
+            </div>
+            <div class="job__body">
+              <h3>R&amp;D Machine Learning Engineer, Senior Staff</h3>
+              <p class="job__org">Continental Automotive</p>
+              <p class="job__summary">Owned multimodal perception models end to end, from framing a high-level objective as an ML task through state-of-the-art research, architecture, losses, training, labeling, evaluation, and deployment in production vehicles.</p>
+              <ul class="job__list">
+                <li><strong>Multimodal 3D perception.</strong> Designed and built 2D/3D detection, tracking, and segmentation models, including 3D models on camera images and LiDAR point clouds. Aligned radar, LiDAR, camera, and odometry streams across coordinate frames and sampling rates (synchronization, filtering) so real-time inference gets stable inputs.</li>
+                <li><strong>Deployment in production vehicles.</strong> Took models from PyTorch to real-time C++ on an automotive accelerator under strict latency budgets, using knowledge distillation, quantization-aware training, and post-training quantization; the quantized model kept 99% similarity to its floating-point reference. Reshaped architectures so weights and intermediate feature maps fit in on-chip memory (L1/L2/L3) instead of spilling to DDR.
+                  <span class="stack">PyTorch · ONNX · C++ · ViT · DINOv3</span></li>
+                <li><strong>Automated labeling strategy.</strong> Designed a fully automated labeling pipeline for several terabytes of raw driving recordings, with no costly manual annotation. Iterated for label quality and hard-case coverage, raising reliably labeled frames by 14 percentage points and recovering most of the hardest scenarios. Ran 4–5 recordings concurrently as multi-model GPU processes sized to fit GPU memory, cutting each full-dataset relabel from ~4 days to under 1.</li>
+                <li><strong>Synthetic data for generalization.</strong> Found a performance gap on unseen scenarios through held-out cross-validation and built a Blender (Python) synthetic-data pipeline that closed 50% of it without regressing on seen scenarios. Extended it into simulation-based stress tests for rare, safety-critical cases before on-road deployment.</li>
+                <li><strong>6× faster training.</strong> Profiled training end to end and removed bottlenecks in storage I/O, CPU preprocessing, host-to-GPU transfer, and GPU compute; redesigned data loading (formats, sharding, prefetching). Training ran 6× faster at ~90% average GPU utilization, shortening each model iteration.
+                  <span class="stack">PyTorch · CUDA · NumPy · OpenCV · MLflow</span></li>
+                <li><strong>Agentic auto-research (PoC).</strong> Built an AI-agent loop that ran 100+ training experiments over a weekend, scored on held-out field recordings it never saw. Beyond hyperparameter search, it proposed new loss terms that drove most gains, cutting failing frames (below 90% precision) by 43%.</li>
+                <li><strong>Metrics and evaluation.</strong> With no requirements to start from, defined the metrics, from training-time losses to precision, recall, and frame pass rate on field recordings, and aligned them with stakeholders. Built the evaluation pipeline and a centralized visualization platform for KPI tracking, failure inspection, and model comparison.
+                  <span class="stack">MLflow · Docker · CI/CD</span></li>
+                <li><strong>Architecture and team leadership (2021–2023).</strong> Designed and managed implementation of the solution’s backend architecture and state machines; wrote the design documents and aligned them with existing requirements and algorithm- and system-level tests. Led a team of 4 engineers on one full-stack module, coordinated integration with the teams building other modules, set engineering standards, mentored engineers, and served as Scrum Master.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job__meta">
+              <p class="job__dates">Jul 2018 – Nov 2020</p>
+              <p>Mexico City, MX</p>
+            </div>
+            <div class="job__body">
+              <h3>Computer Vision Engineer</h3>
+              <p class="job__org">Advanced Image Processing Laboratory (LAPI)</p>
+              <ul class="job__list">
+                <li><strong>COVID-19 diagnosis platform (Imagen Salud).</strong> One of three leads on a web platform for chest CT and X-ray, used and evaluated by physicians at La Raza; owned segmentation (U-Net) and quantification, and contributed to report generation and the inference backend. Released iteratively, prioritizing clinician requests by effort.
+                  <span class="stack">Python · Flask</span></li>
+                <li><strong>End-to-end medical imaging pipeline.</strong> Worked across acquisition physics, reconstruction, preprocessing, and analysis of CT (NIfTI), X-ray and ultrasound (DICOM), learning how acquisition parameters drive artifacts and model performance.</li>
+                <li><strong>Cardiac ultrasound application.</strong> Owned the visualization side of a desktop application used by cardiologists, building the visualization and inference backend and working on segmentation and quantification.
+                  <span class="stack">C++ · Qt · VTK</span></li>
+                <li><strong>Quantitative modeling.</strong> Applied differential geometry, finite element analysis, and optical flow to model anatomical structures, estimate motion, and derive quantitative diagnostic indicators.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Medical imaging, in motion</h2>
+          <p class="section__intro">Recordings from my medical imaging work at LAPI and UNAM: segmentation on CT, ultrasound and X-ray, and a COVID-19 diagnosis-support web app.</p>
+        </header>
+        <ul class="shots">
+          <li class="shot shot--wide">
+            <div class="shot__media">
+              <video muted loop playsinline controls preload="none" poster="assets/work/imagen-salud.jpg" aria-label="TV UNAM segment on Imagen Salud: the project team, Steve introduced as part of research and development at UNAM's Centro Virtual de Computación, then a screen recording of the web app showing CT slices with segmented lung lesions and a COVID-19 probability">
+                <source src="assets/work/imagen-salud.mp4" type="video/mp4">
+                <source src="assets/work/imagen-salud.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="shot__body">
+              <p class="pub__top"><span class="badge">CT · Web app</span><span>2020</span></p>
+              <h3>Imagen Salud: <span class="nowrap">COVID-19</span> diagnosis support</h3>
+              <p class="shot__desc">A public web platform for COVID-19 diagnosis support from chest CT and X-ray, used and evaluated by physicians at La Raza (IMSS). Models segmented the lungs, ground-glass opacity and consolidation, reported the share of affected lung, and a CNN estimated the probability of COVID-19.</p>
+              <p class="shot__role"><strong>My role:</strong> one of three leads; owned lung and lesion segmentation (U-Net) and quantification of affected lung, and contributed to report generation and the inference backend.</p>
+              <p class="shot__meta">LAPI · Medical Center “La Raza” · UNAM · Python · Flask</p>
+              <p class="shot__press">Featured on TV UNAM and in El Universal (May 2020).</p>
+              <a class="pub__link" href="https://www.eluniversal.com.mx/english/unam-develops-auxiliary-computing-system-covid-19-diagnosis/" target="_blank" rel="noopener">Read the press coverage<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="shot__media">
+              <video muted loop playsinline controls preload="none" poster="assets/work/cardiac-ultrasound.jpg" aria-label="Echocardiogram with contours tracking the left ventricle, myocardium and left atrium through the cardiac cycle">
+                <source src="assets/work/cardiac-ultrasound.mp4" type="video/mp4">
+                <source src="assets/work/cardiac-ultrasound.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="shot__body">
+              <p class="pub__top"><span class="badge">Ultrasound</span><span>2020</span></p>
+              <h3>Multi-structure cardiac ultrasound segmentation</h3>
+              <p class="shot__desc">Left ventricle, myocardium and left atrium segmented frame by frame through the cardiac cycle in noisy echocardiography.</p>
+              <p class="shot__role"><strong>My role:</strong> owned the visualization side of a desktop application used by cardiologists, building the visualization and inference backend and working on segmentation and quantification.</p>
+              <p class="shot__meta">Robert Gordon University collaboration · C++ · Qt · VTK</p>
+              <a class="pub__link" href="https://www.rgu.ac.uk/news/news-2020/2876-rgu-partners-with-unam-on-innovative-cardiovascular-research-in-mexico" target="_blank" rel="noopener">Read about it<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="shot__media">
+              <video muted loop playsinline controls preload="none" poster="assets/work/chest-xray.jpg" aria-label="Chest X-rays from different sources with the segmented lung fields outlined in red">
+                <source src="assets/work/chest-xray.mp4" type="video/mp4">
+                <source src="assets/work/chest-xray.webm" type="video/webm">
+              </video>
+            </div>
+            <div class="shot__body">
+              <p class="pub__top"><span class="badge">X-ray</span><span>2018–2020</span></p>
+              <h3>Chest X-ray lung segmentation</h3>
+              <p class="shot__desc">Lung fields segmented on chest X-rays from varied scanners, exposures and patient positions, including images with burned-in markers and annotations.</p>
+              <p class="shot__meta">LAPI · 2D segmentation</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">Publications &amp; patents</h2>
+        </header>
+        <ul class="pubs">
+          <li class="pub pub--wide">
+            <p class="pub__top"><span class="badge">Patent</span><span>2026 · Under review</span></p>
+            <h3>Invention disclosure in structure from motion (3D reconstruction)</h3>
+            <p class="pub__venue">Submitted to Continental’s patent committee</p>
+            <p class="pub__desc">Under review; details confidential.</p>
+          </li>
+          <li class="pub">
+            <p class="pub__top"><span class="badge">Paper</span><span>2020</span></p>
+            <h3>Active contours for multi-region segmentation with a convolutional neural network initialization</h3>
+            <p class="pub__venue">SPIE · Optics, Photonics and Digital Technologies for Imaging Applications VI</p>
+            <p class="pub__desc">Peer-reviewed conference paper on CNN-initialized active contours for multi-region medical image segmentation.</p>
+            <a class="pub__link" href="https://doi.org/10.1117/12.2556928" target="_blank" rel="noopener">Read the paper<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="pub">
+            <p class="pub__top"><span class="badge">Paper</span><span>2020</span></p>
+            <h3>3D anatomical models for an ultra-low-field MRI system</h3>
+            <p class="pub__venue">XVI Mexican Symposium on Medical Physics · UNAM</p>
+            <p class="pub__desc">Segmentation and 3D modeling of anatomical structures to evaluate and improve a 3D ultra-low-field MRI system.</p>
+            <a class="pub__link" href="https://pubs.aip.org/aip/acp/article/2348/1/050012/999875/Development-of-anatomical-phantoms-for-an-ultra" target="_blank" rel="noopener">Read the paper<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Toolkit</p>
+          <h2 id="skills-title">Technical skills</h2>
+        </header>
+        <div class="skills">
+          <div class="skill-group">
+            <h3>ML &amp; vision</h3>
+            <ul class="chips">
+              <li>PyTorch</li><li>OpenCV</li><li>NumPy</li><li>CUDA</li><li>CNNs (U-Net, EfficientNet)</li><li>ViTs</li><li>DINOv3</li><li>Self-supervised learning</li><li>Synthetic data (Blender)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Deployment</h3>
+            <ul class="chips">
+              <li>ONNX</li><li>Embedded accelerator toolchains</li><li>Quantization (PTQ, QAT)</li><li>Knowledge distillation</li><li>Memory-aware architecture design</li><li>Real-time C++ integration</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>3D &amp; fusion</h3>
+            <ul class="chips">
+              <li>Camera models (pinhole, Scaramuzza omnidirectional)</li><li>Calibration &amp; pose estimation</li><li>Structure from motion</li><li>LiDAR point clouds</li><li>Volumetric data</li><li>Multi-view geometry</li><li>Coordinate transformations</li><li>Spatio-temporal alignment of multimodal data</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Medical imaging</h3>
+            <ul class="chips">
+              <li>CT</li><li>X-ray</li><li>Ultrasound</li><li>MRI</li><li>DICOM</li><li>NIfTI</li><li>VTK</li><li>Qt</li><li>Segmentation</li><li>Motion estimation (optical flow)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>MLOps</h3>
+            <ul class="chips">
+              <li>MLflow</li><li>Weights &amp; Biases</li><li>FiftyOne</li><li>Docker</li><li>CI/CD</li><li>Versioned data &amp; models</li><li>Evaluation &amp; visualization platforms</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Languages &amp; software design</h3>
+            <ul class="chips">
+              <li>Python</li><li>C++</li><li>Flask</li><li>Backend architecture</li><li>State machines</li><li>Design documentation</li><li>Algorithm- &amp; system-level testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Education &amp; courses</h2>
+        </header>
+        <div class="edu">
+          <article class="card">
+            <p class="card__meta">Sep 2015 – Jun 2019 · Mexico City, MX</p>
+            <h3>B.Sc. Biomedical Physics</h3>
+            <p class="job__org">National Autonomous University of Mexico (UNAM), School of Science</p>
+            <ul class="job__list">
+              <li><strong>Medical imaging physics.</strong> Acquisition, reconstruction, and artifacts across CT, MRI, PET, SPECT, ultrasound, and X-ray; projects in image processing, reconstruction, and pattern recognition on planar and volumetric data.</li>
+              <li><strong>Biomedical signal processing.</strong> Noise characterization, filtering, and feature extraction for imaging data and physiological time series (EEG, ECG, EMG).</li>
+              <li><strong>Teaching.</strong> Assistant instructor for undergraduate physics courses.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <p class="card__meta">Courses</p>
+            <ul class="courses">
+              <li>
+                <h3>Deep Learning Specialization &amp; ML for Production</h3>
+                <p class="courses__org">Coursera · 2021</p>
+                <p class="courses__desc">ML pipelines, model deployment, data lifecycle.</p>
+              </li>
+              <li>
+                <h3>Leading Digital Transformation</h3>
+                <p class="courses__org">MIT Professional Education · 2020</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="contact__panel">
+          <p class="eyebrow eyebrow--on-ink">Contact</p>
+          <h2 id="contact-title">Let’s talk.</h2>
+          <p class="contact__text">Hiring for computer vision, 3D perception, edge ML or medical imaging? I’m open to new roles and to relocation. Email is the fastest way to reach me.</p>
+          <div class="contact__email">
+            <a href="mailto:steve.aag1@gmail.com">steve.aag1@gmail.com</a>
+            <button class="copy" type="button" data-copy="steve.aag1@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span>Copy</span>
+            </button>
+            <span class="visually-hidden" role="status" id="copy-status"></span>
+          </div>
+          <div class="contact__actions">
+            <a class="btn btn--on-ink" href="mailto:steve.aag1@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>Email me
+            </a>
+            <a class="btn btn--ghost-on-ink" href="https://www.linkedin.com/in/steve-alejandro-a-61340a194/" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn
+            </a>
+            <a class="btn btn--ghost-on-ink" href="data/Steve_Avendano_CV.pdf" download="Steve_Avendano_CV.pdf">
+              <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Steve A. Avendaño García</p>
+      <p>Updated November 2026 · <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+  <script src="assets/scene.js" defer></script>
+</body>
+</html>

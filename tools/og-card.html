@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Source for assets/og-image.png, the link-preview image shown on LinkedIn, Slack, email, etc.
+     Regenerate it after changing this card (see README). -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Social card</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap">
+  <style>
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+    body {
+      display: grid; grid-template-columns: 610px 590px;
+      background: #070b0f; color: #e8eef2;
+      font-family: "Geist", system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+    }
+    p, h1 { margin: 0; }
+    .text { display: flex; flex-direction: column; padding: 60px 0 52px 64px; }
+    .eyebrow { display: flex; align-items: center; gap: 10px; font-family: "Geist Mono", monospace; font-size: 15px; letter-spacing: .1em; text-transform: uppercase; color: #8ea3b3; }
+    .eyebrow::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: #34d399; }
+    h1 { margin-top: 22px; font-size: 62px; font-weight: 650; line-height: 1.02; letter-spacing: -.035em; }
+    .role { margin-top: 20px; font-size: 25px; font-weight: 600; letter-spacing: -.01em; }
+    .focus { margin-top: 6px; font-size: 19px; letter-spacing: -.005em; color: #4cc9dc; }
+    .metrics { display: flex; gap: 36px; margin-top: auto; }
+    .metrics b { display: block; font-size: 36px; font-weight: 600; letter-spacing: -.035em; }
+    .metrics span { font-family: "Geist Mono", monospace; font-size: 13px; color: #8ea3b3; }
+    .url { margin-top: 26px; font-family: "Geist Mono", monospace; font-size: 15px; color: #6c8597; }
+    .stage { position: relative; }
+    .stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .stage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, #070b0f 0%, transparent 16%); }
+  </style>
+</head>
+<body>
+  <div class="text">
+    <p class="eyebrow">Open to new roles &amp; relocation</p>
+    <h1>Steve A.<br>Avendaño García</h1>
+    <p class="role">Senior Staff Algorithms Engineer</p>
+    <p class="focus">Real-time computer vision · 3D perception · <span style="white-space:nowrap">Medical imaging</span></p>
+    <div class="metrics">
+      <p><b>8+ yrs</b><span>CV, R&amp;D to production</span></p>
+      <p><b>6×</b><span>faster training</span></p>
+      <p><b>99%</b><span>quantized fidelity</span></p>
+    </div>
+    <p class="url">steve2ag.github.io</p>
+  </div>
+  <div class="stage"><canvas id="scene" data-static></canvas></div>
+  <script src="../assets/scene.js"></script>
+</body>
+</html>
